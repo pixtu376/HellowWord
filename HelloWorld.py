@@ -4,8 +4,7 @@ from tkinter import messagebox
 def show_popup():
     root = tk.Tk()
     root.withdraw()  # Hide the main window
-    messagebox.showinfo("Popup", "Hello, this is a popup window!")
+    messagebox.showinfo("Hello world")
     root.destroy()
 
-print("Hello world")
 show_popup()
